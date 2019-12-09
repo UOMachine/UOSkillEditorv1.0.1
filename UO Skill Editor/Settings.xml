@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<setting>
+		<name>Language</name>
+		<value>English.xml</value>
+		<option>English.xml</option>
+	</setting>
+	<setting>
+		<name>SettingPages</name>
+		<option>Editor.GeneralPage</option>
+	</setting>
+</settings>

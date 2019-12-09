@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language name="English">
+	<!-- Main Form -->
+	<entry key="MainForm_Title">UO Skill Editor</entry>
+
+	<entry key="MainForm_Menu_File">File</entry>
+	<entry key="MainForm_Menu_File_Open">Open</entry>
+	<entry key="MainForm_Menu_File_Save">Save</entry>
+	<entry key="MainForm_Menu_File_Patch">Patch</entry>
+	<entry key="MainForm_Menu_File_Exit">Exit</entry>
+	
+	<entry key="MainForm_Menu_Edit">Edit</entry>
+	<entry key="MainForm_Menu_Edit_Settings">Settings</entry>
+	
+	<entry key="MainForm_Menu_Help">Help</entry>
+	<entry key="MainForm_Menu_Help_About">About</entry>
+
+	<entry key="MainForm_SkillColumn_ID">ID</entry>
+	<entry key="MainForm_SkillColumn_Button">Button</entry>
+	<entry key="MainForm_SkillColumn_Name">Name</entry>
+	<entry key="MainForm_SkillColumn_Group">Group</entry>
+	
+
+	<!-- Settings dialog -->
+	<entry key="SettingsDialog_Title">Settings</entry>
+	<entry key="SettingsDialog_Button_Reset">Reset</entry>
+	<entry key="SettingsDialog_Button_Cancel">Cancel</entry>
+	<entry key="SettingsDialog_Button_Save">Save</entry>
+	<entry key="SettingsDialog_Error_InvalidPage">Invalid settings page: {0}!</entry>
+	<entry key="SettingsDialog_Error_Saving">Error saving settings!</entry>
+	
+	<!-- Patch dialog -->
+	<entry key="PatchDialog_Title">Patch Skill Count</entry>
+	<entry key="PatchDialog_Button_Cancel">Cancel</entry>
+	<entry key="PatchDialog_Button_Confirm">Confirm</entry>
+	<entry key="PatchDialog_Label_From">Load client from:</entry>
+	<entry key="PatchDialog_Label_To">Save patched client to:</entry>
+	<entry key="PatchDialog_Label_Count">Skill count:</entry>
+	<entry key="PatchDialog_Check_Count">use from opened skills.mul</entry>
+	<entry key="PatchDialog_OpenFile_Title">Open Client</entry>
+	<entry key="PatchDialog_SaveFile_Title">Save Patched Client</entry>
+
+	<!-- Save skills dialog -->
+	<entry key="SaveSkillsDialog_Title">Save Skills</entry>
+	<entry key="SaveSkillsDialog_SkillsIdx">skills.idx:</entry>
+	<entry key="SaveSkillsDialog_SkillsMul">skills.mul:</entry>
+	<entry key="SaveSkillsDialog_GroupsMul">skillgrp.mul:</entry>
+	<entry key="SaveSkillsDialog_UseDefault">Use default paths:</entry>
+	<entry key="SaveSkillsDialog_SaveToFolder">Save to folder</entry>
+	<entry key="SaveSkillsDialog_Button_Cancel">Cancel</entry>
+	<entry key="SaveSkillsDialog_Button_Confirm">Confirm</entry>
+
+	<!-- Open skills dialog -->
+	<entry key="OpenSkillsDialog_Title">Open Skills</entry>
+	<entry key="OpenSkillsDialog_SkillsIdx">skills.idx:</entry>
+	<entry key="OpenSkillsDialog_SkillsMul">skills.mul:</entry>
+	<entry key="OpenSkillsDialog_GroupsMul">skillgrp.mul:</entry>
+	<entry key="OpenSkillsDialog_UseDefault">Use default paths:</entry>
+	<entry key="SaveSkillsDialog_LoadFromFolder">Load from folder</entry>
+	<entry key="OpenSkillsDialog_Button_Cancel">Cancel</entry>
+	<entry key="OpenSkillsDialog_Button_Confirm">Confirm</entry>
+	
+	<entry key="AboutDialog_Title">About</entry>
+	<entry key="AboutDialog_Description">This program is used for editing Ultima Online skills. Check for updates on: http://code.google.com/p/mondains-legacy/downloads/list. </entry>
+	<entry key="AboutDialog_Copyright">Copyright 2010 by Malganis</entry>
+
+	<!-- General page -->
+	<entry key="SettingsDialog_GeneralPage_Title">General</entry>
+	<entry key="SettingsDialog_GeneralPage_Language">Language</entry>
+	<entry key="SettingsDialog_GeneralPage_CurrentLanguage">Current language:</entry>
+
+	<!-- Messages -->
+	<entry key="MainForm_Message_Title">Message</entry>
+	<entry key="MainForm_Message_PatchingSuccessful">Patching successful.</entry>
+
+	<entry key="MainForm_Prompt_Title">Prompt</entry>
+	<entry key="MainForm_Prompt_Delete">Are you sure you wan't to delete selected items?</entry>
+	<entry key="MainForm_Prompt_Changes">The changes have been saved. Do you wan't to save them?</entry>	
+
+	<entry key="MainForm_Error_Title">Error</entry>
+	<entry key="MainForm_Error_FileNotFound">File {0} doesn't exist!</entry>
+	<entry key="MainForm_Error_FolderNotFound">Folder {0} doesn't exist!</entry>
+	<entry key="MainForm_Error_InvalidPath">Invalid path!</entry>
+	<entry key="MainForm_Error_Loading">Error while loading skills!</entry>
+	<entry key="MainForm_Error_Saving">Error while saving skills!</entry>
+	<entry key="MainForm_Error_DeletingItems">Error while deleting items!</entry>
+	<entry key="MainForm_Error_MovingSkill">Error while moving skill!</entry>
+	<entry key="MainForm_Error_AddingGroup">Error while adding new group!</entry>
+	<entry key="MainForm_Error_AddingSkill">Error while adding new skill!</entry>
+	<entry key="MainForm_Error_Patching">Error while patching client!</entry>
+	<entry key="MainForm_Error_InvalidSkillCount">Invalid skill count. Skill count must be a number smaller than 256!</entry>
+	<entry key="MainForm_Error_InvalidSkillID">Invalid skill ID. ID must be a number between 0 and 255.</entry>
+	<entry key="MainForm_Error_DuplicateSkillID">Duplicate skill ID. ID {0} is already taken by {1}.</entry>
+	<entry key="MainForm_Error_OverSkillCount">Skill ID must be lower than skill count.</entry>
+	<entry key="MainForm_Error_OverSkillCap">Maximum number of skills reached.</entry>
+	<entry key="MainForm_Error_OverGroupCap">Maximum number of groups reached.</entry>
+	<entry key="MainForm_Error_CantDeleteDefaultGroup">Can't delete default group.</entry>
+
+	<entry key="MainForm_Error_MissingSkillCount">Skill count signature not found. Please check for updates.</entry>
+	<entry key="MainForm_Error_MissingBaseAddress">Base address signature not found. Please check for updates.</entry>
+</language>
